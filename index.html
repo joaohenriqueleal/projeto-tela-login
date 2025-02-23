@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/mobile_all.css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <main>
+        <img src="assets/fundo.jpg" alt="Imagem de predios comerciais vistos de baixo.">
+        <section>
+            <h1>Login</h1>
+            <p>Faça login para gerenciar sua conta.</p>
+            <form action="#" method="post" autocomplete="on">
+                <div>
+                    <label for="icpf"></label>
+                    <input type="text" id="icpf" name="cpf" minlength="11"
+                    maxlength="14" size="40" placeholder="   xxx.xxx.xxx.xx"
+                    autocomplete="cc-number" pattern="\d{3}\.?\d{3}\.?\d{3}\-?"
+                    value="digite seu CPF">
+                </div>
+                <div>
+                    <label for="isenha"></label>
+                    <input type="password" id="isenha" name="senha"
+                    minlength="8" maxlength="50" size="40" required
+                    placeholder="   xxxxxxxx" autocomplete="current-password"
+                    value="suasenha">
+                </div>
+                <div>
+                    <input type="submit" value="Entrar" id="envio">
+                </div>
+            </form>
+            <a href="https://workspace.google.com/intl/pt-BR/gmail/" target="_blank">esqueçi a senha<i class="material-icons">email</i></a>
+        </section>
+    </main>
+</body>
+</html>

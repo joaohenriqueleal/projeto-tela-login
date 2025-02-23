@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #820AD1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}
+
+main {
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+
+    width: 380px;
+    height: 700px;
+    
+}
+main h1 {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 33px;
+}
+
+main p {
+    text-align: center;
+    margin: 10px;
+}
+
+main img {
+    width: 380px;
+    margin: auto;
+}
+
+main section {
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Configurando botoes e inputs*/
+
+input {
+    border-radius: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    outline: none;
+
+    margin: 10px;
+    height: 40px;
+    padding: 7px;
+}
+
+input:hover {
+    background-color: rgba(211, 211, 211, 0.501);
+}
+
+#envio {
+    background-color: rgb(51, 142, 112);
+    border: 1px solid rgb(64, 190, 148);
+
+    width: 350px;
+    height: 60px;
+
+    font-weight: bolder;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.22);
+}
+
+#envio:hover {
+    background-color: rgb(144, 240, 208);
+    border: none;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.13);
+
+    cursor: pointer;
+}
+
+a {
+    border-radius: 10px;
+
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgba(131, 37, 185, 0.801);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #3c274b;
+}
+
+a:hover {
+    color: grey;
+    border: 1px solid rgba(131, 37, 185, 0.501);
+    transform: scale(1.01);
+    transition: .2s;
+}
+
+i {
+    margin-left: 3px;
+}
