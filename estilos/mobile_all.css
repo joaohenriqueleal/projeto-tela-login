@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #820AD1;
+    background-color: rgb(100, 100, 255);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 10px;
 }
@@ -40,9 +40,11 @@ main p {
     margin: 10px;
 }
 
-main img {
-    width: 380px;
-    margin: auto;
+div.imagem {
+    background-image: url('../assets/fundo.jpg');
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 main section {
@@ -68,6 +70,7 @@ input {
 
 input:hover {
     background-color: rgba(211, 211, 211, 0.501);
+    transition: .1s;
 }
 
 #envio {
@@ -89,6 +92,7 @@ input:hover {
     box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.13);
 
     cursor: pointer;
+    transition: .1s;
 }
 
 a {

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 1200px) {
+    main {
+        width: 1000px;
+        height: 700px;
+        display: flex;
+        flex-flow: row-reverse nowrap;
+    }
+    div.imagem {
+        background-image: url('../assets/fundo2.avif');
+        width: 400px;
+        height: 700px;
+    }
+    main section {
+        height: 700px;
+        width: 600px;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 780px) {
+    main {
+        width: 770px;
+        height: 400px;
+        display: flex;
+    }
+    div.imagem {
+        background-image: url('../assets/fundo.jpg');
+        width: 300px;
+        height: 400px;
+    }
+}
